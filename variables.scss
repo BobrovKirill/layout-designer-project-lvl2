@@ -1,11 +1,47 @@
-header {
-    width: 50%;
-    background: brown;
-  
-    &.w-100 {
-      width: 100%;
-      color: red($color: #000000);
-      height: 1000px;
-    }
-  }
+$main-color-bg: #000;
+$footer-color-bg: #fff;
+$banner-color-bt: #33c175;
+$main-color-bt: #fe4158;
+$input-color-bg: #474055;
 
+$main-color-font: #fff;
+$secondary-color-font: #8c8c8c;
+$third-color-font: #884f07;
+$data-color-font: #555555;
+
+@mixin reset{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+@mixin flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+@mixin space-beetwen-center{
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin space-around-center{
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin colum-center {
+    flex-direction: column;
+    align-items: center;
+}
+@mixin text-uppercase{
+    text-transform: uppercase;
+}
+
+
+
+* {
+    @include reset
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    @include flex-wrap
+}

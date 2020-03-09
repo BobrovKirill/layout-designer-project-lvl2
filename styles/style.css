@@ -1,11 +1,66 @@
-header {
-  width: 50%;
-  background: brown;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
-header.w-100 {
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+header .logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+header .logo img {
+  height: 20px;
+  width: 20px;
+}
+header .logo p {
+  padding-left: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+header nav a {
+  color: #8c8c8c;
+}
+
+.banner {
+  background: url("../images/banner.png") no-repeat;
   width: 100%;
-  color: 0;
-  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.banner h1 {
+  margin: 240px 0 30px 0;
+}
+.banner p {
+  margin: 55px 0 40px 0;
+}
+.banner button {
+  margin: 20px 0 280px 0;
+}
+.banner form {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */
