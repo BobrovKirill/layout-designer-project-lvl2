@@ -5,69 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портал «Music Box» bobrovkirill</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<header>
-    <div class="logo">
+<header class="wrapper flex space-between-center">
+    <div class="logo-header flex wrap fz-11">
         <img src="images/logo.svg" alt="logo">
-        <p>music box</p>
+        <p class="uppercase font-bold">music box</p>
     </div>
-    <nav>
+    <nav class="header-nav uppercase font-bold fz-11">
         <a href="#in_main">главная</a>
         <a href="#in_catalog">каталог</a>
         <a href="#in_executor">исполнители</a>
         <a href="#in_contacs">контакты</a>
     </nav>
-    <input type="text">
+    <input class="header-search uppercase fz-11" type="text" placeholder="ПОИСК... &#128269;">
 </header>
 
 <main>
-    <div class="banner">
-        <h1>онлайн музыка где угодно</h1>
-        <h3>без ограничений</h3>
-        <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
-        <form action="#">
-            <input type="text">
-            <input type="Email">
-        </form>
-        <button>получить доступ</button>
+    <div class="banner ">
+        <div class="wrapper flex colum-center">
+            <h1 class="chapter uppercase font-bold fz-60">онлайн музыка где угодно</h1>
+            <h2 class="fz-30 uppercase">без ограничений</h2>
+            <p class="mg-for-p  fz-18">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+            <form class="flex wrap" action="#">
+                <input class="input-banner fz-14" type="text" placeholder="Имя">
+                <input class="input-banner fz-14" type="Email" placeholder="Email">
+                <button class="btn-banner uppercase fz-14">получить доступ</button>
+            </form>
+        </div>
     </div>
 
 
-    <div class="form-follow">
-        <div class="wrapper">
-            <h2>формы подписки</h2>
-            <div class="flex">
-                <div class="box">
-                    <h4>бесплатная</h4>
-                    <div class="sum">
-                        <h3>0</h3>
-                        <p>руб.</p>
+    <div class="main-bg">
+        <div class="wrapper pd-top-100">
+            <h2 class="align-center uppercase fz-38">формы подписки</h2>
+            <div class="flex space-between-center pd-top-100">
+                <div class="subscribe subscribe-1 align-center">
+                    <h4 class="fz-28 uppercase">бесплатная</h4>
+                    <div class="sum flex a">
+                        <h3 class="fz-60 pd-rt-11">0</h3>
+                        <p class="fz-30">руб.</p>
                     </div>
-                    <button>оформить</button>
-                    <p>Оплата в месяц. Бесплатный тариф предоставляет доступ ко вей коллкеции музыки. Присутствуут рекулама</p>
+                    <a class="btn-subscribe fz-28 uppercase">оформить</a>
+                    <p class="fz-11 mg-top-50">Оплата в месяц. Бесплатный тариф предоставляет доступ ко вей коллкеции музыки. Присутствуут рекулама</p>
                 </div>
-                <div class="box">
-                    <h4>стандартная</h4>
-                    <div class="sum">
-                        <h3>250</h3>
-                        <p>руб.</p>
+                <div class="subscribe subscribe-2 align-center">
+                    <h4 class="fz-28 uppercase">стандартная</h4>
+                    <div class="sum flex">
+                        <h3 class="fz-60 pd-rt-11">250</h3>
+                        <p class="fz-30">руб.</p>
                     </div>
-                    <button>оформить</button>
-                    <p>Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
+                    <a class="btn-subscribe fz-28 uppercase">оформить</a>
+                    <p class="fz-11 mg-top-50">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
                 </div>
-                <div class="box">
-                    <h4>премиум</h4>
-                    <div class="sum">
-                        <h3>500</h3>
-                        <p>руб.</p>
+                <div class="subscribe subscribe-3 align-center">
+                    <h4 class="fz-28 uppercase">премиум</h4>
+                    <div class="sum flex">
+                        <h3 class="fz-60 pd-rt-11">500</h3>
+                        <p class="fz-30">руб.</p>
                     </div>
-                    <button>оформить</button>
-                    <p>Оплата в месяц. Премиум тариф предоставляе доступ ко всей коллекции музыки в высоком качестве</p>
+                    <a class="btn-subscribe fz-28 uppercase">оформить</a>
+                    <p class="fz-11 mg-top-50">Оплата в месяц. Премиум тариф предоставляе доступ ко всей коллекции музыки в высоком качестве</p>
                 </div>
             </div>
-            <h2>На всех тарифах возможно прослушивание музыки с мобильных устройств. На тремиум тарифе вы можете скаать все композиции на ваше устройство и слушать музыку без подключения к интернету</h2>
+            <h2 class="fz-22 align-center mg-top-50">На всех тарифах возможно прослушивание музыки с мобильных устройств. На тремиум тарифе вы можете скаать все композиции на ваше устройство и слушать музыку без подключения к интернету</h2>
         </div>
     </div>
 

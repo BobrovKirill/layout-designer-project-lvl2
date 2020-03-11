@@ -4,23 +4,30 @@ header{
     left: 0;
     right: 0;
     z-index: 10;
-    height: 50px;
-    @include flex-wrap;
-    @include space-around-center;
-    
-    .logo {
-        @include flex-wrap;
-        img {
-            height: 20px;
-            width: 20px;
-        }
-        p {
-            padding-left: 10px;
-            color: $main-color-font;
-            @include text-uppercase;
-        }
+    height: 80px;
+}
+.logo-header {
+    align-items: center;
+    img {
+        height: 20px;
+        width: 20px;
     }
-    nav a{
+    p {
+        padding-left: 10px;
+        color: $main-color-font;
+    }
+}
+.header-nav{
+    margin-right: 225px;
+    a{
         color: $secondary-color-font;
+        margin-right: 30px;
     }
+}
+.header-search {
+    border: none;
+    border-radius: 50px;
+    background: $input-color-bg;
+    padding: 9px 14px;
+    width: 280px;
 }

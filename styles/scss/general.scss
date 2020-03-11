@@ -1,0 +1,73 @@
+@mixin reset{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+* {
+    @include reset;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.colum-center {
+    flex-direction: column;
+    align-items: center;
+}
+.space-between-center {
+justify-content: space-between;
+align-items: center;
+}
+.align-center {
+    text-align: center;
+}
+.fz-11 {
+    font-size: 11px;
+}
+.fz-12 {
+    font-size: 12px;
+}
+.fz-14 {
+    font-size: 14px;
+}
+.fz-60 {
+    font-size: 60px;
+}
+.fz-18 {
+    font-size: 18px;
+}
+.fz-12 {
+    font-size: 22px;
+}
+.fz-24 {
+    font-size: 24px;
+}
+.fz-28 {
+    font-size: 28px;
+}
+.fz-30 {
+    font-size: 30px;
+}
+.fz-38 {
+    font-size: 38px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.font-bold {
+    font-weight: bold;
+}
+.pd-top-100 {
+    padding-top: 100px;
+}
+.mg-top-50 {
+    margin-top: 50px;
+}

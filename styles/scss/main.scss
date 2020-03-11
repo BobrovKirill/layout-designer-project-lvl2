@@ -1,19 +1,29 @@
-.banner {
-    background: url("../images/banner.png") no-repeat;
-    width: 100%;
-    @include flex-wrap;
-    @include colum-center;
+.main-bg {
+    background: $main-color-bg;
     color: $main-color-font;
-    h1 {
-        margin: 240px 0 30px 0;
-    }
-    p {
-        margin: 55px 0 40px 0;
-    }
-    button {
-        margin: 20px 0 280px 0;
-    }
-    form {
-        @include flex-wrap;
-    }
+}
+.subscribe-1 {
+    background: url(../images/subscribe_1.png) no-repeat center;
+}
+.subscribe-2 {
+    background: url(../images/subscribe_2.png) no-repeat center;
+}
+.subscribe-3 {
+    background: url(../images/subscribe_3.png) no-repeat center;
+}
+.subscribe {
+    padding: 25px 0 50px;
+}
+.sum {
+    margin: 230px 0 61px;
+    align-content: flex-start;
+    justify-content: center;
+}
+.pd-rt-11 {
+    padding-right: 11px;
+}
+.btn-subscribe {
+    border: 4px solid $main-color-font;
+    color: $main-color-font;
+    padding: 20px 80px;
 }
