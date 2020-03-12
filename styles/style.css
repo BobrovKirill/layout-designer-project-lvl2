@@ -32,6 +32,10 @@
   text-align: center;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .fz-11 {
   font-size: 11px;
 }
@@ -84,8 +88,28 @@
   padding-top: 100px;
 }
 
+.pd-bot-100 {
+  padding-bottom: 100px;
+}
+
 .mg-top-50 {
   margin-top: 50px;
+}
+
+.mg-rt-100 {
+  margin-right: 100px;
+}
+
+.mg-bot-25 {
+  margin-bottom: 25px;
+}
+
+.width-33 {
+  width: 33%;
+}
+
+.width-45 {
+  width: 45%;
 }
 
 header {
@@ -202,7 +226,51 @@ form {
 .btn-subscribe {
   border: 4px solid #fff;
   color: #fff;
-  padding: 20px 80px;
+  padding: 5% 18%;
+}
+
+/*NEWS*/
+.about-author h2 {
+  margin-bottom: 25px;
+}
+.about-author p {
+  color: #8c8c8c;
+}
+
+.in-about-author {
+  margin: 16px 0 51px;
+}
+.in-about-author h4 {
+  color: #884f07;
+}
+.in-about-author p {
+  color: #555555;
+}
+.in-about-author img {
+  width: 19px;
+}
+
+.btn-news {
+  border: 1px solid #8c8c8c;
+  padding: 6px 30px;
+  color: #8c8c8c;
+}
+
+/*MOBIL*/
+.mg-left-135 {
+  margin-left: 135px;
+}
+
+.aligt-start {
+  align-items: flex-start;
+}
+
+.btn-mobil {
+  background: #fe4158;
+  border-radius: 50px;
+  border: none;
+  height: 50px;
+  width: 160px;
 }
 
 /*# sourceMappingURL=style.css.map */

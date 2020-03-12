@@ -29,6 +29,10 @@ align-items: center;
 .align-center {
     text-align: center;
 }
+.items-center {
+    align-items: center;
+}
+
 .fz-11 {
     font-size: 11px;
 }
@@ -68,6 +72,21 @@ align-items: center;
 .pd-top-100 {
     padding-top: 100px;
 }
+.pd-bot-100 {
+    padding-bottom: 100px;
+}
 .mg-top-50 {
     margin-top: 50px;
+}
+.mg-rt-100 {
+    margin-right: 100px;
+}
+.mg-bot-25 {
+    margin-bottom: 25px;
+}
+.width-33 {
+    width: 33%;
+}
+.width-45 {
+    width: 45%;
 }

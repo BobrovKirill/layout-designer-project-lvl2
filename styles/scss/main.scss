@@ -25,5 +25,50 @@
 .btn-subscribe {
     border: 4px solid $main-color-font;
     color: $main-color-font;
-    padding: 20px 80px;
+    padding: 5% 18%;
+}
+
+                                    /*NEWS*/
+
+.about-author {
+    h2 {
+        margin-bottom: 25px;
+    }
+
+    p {
+        color: $secondary-color-font;
+    }
+}
+.in-about-author{
+    margin: 16px 0 51px;
+    h4{
+        color: $third-color-font;
+    }
+    p {
+        color: $data-color-font;
+    }
+    img {
+        width: 19px;
+    }
+}
+.btn-news {
+    border: 1px solid $secondary-color-font;
+    padding: 6px 30px;
+    color: $secondary-color-font;
+}
+
+                        /*MOBIL*/
+
+.mg-left-135 {
+    margin-left: 135px;
+}
+.aligt-start {
+    align-items: flex-start;
+}
+.btn-mobil {
+    background: $main-color-bt;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    width: 160px;
 }
