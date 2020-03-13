@@ -2,6 +2,10 @@
     background: $main-color-bg;
     color: $main-color-font;
 }
+.grey-color {
+    color: #8c8c8c;
+}
+
 .subscribe-1 {
     background: url(../images/subscribe_1.png) no-repeat center;
 }
@@ -67,6 +71,7 @@
 }
 .btn-mobil {
     background: $main-color-bt;
+    color: $main-color-font;
     border-radius: 50px;
     border: none;
     height: 50px;
