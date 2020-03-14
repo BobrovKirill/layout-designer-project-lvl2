@@ -9,7 +9,7 @@
 }
 
 .wrapper{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .flex {
@@ -18,57 +18,85 @@
 .wrap {
     flex-wrap: wrap;
 }
-.colum-center {
+.colum {
     flex-direction: column;
-    align-items: center;
 }
-.space-between-center {
+.space-between {
 justify-content: space-between;
-align-items: center;
 }
-.align-center {
+.text-center {
     text-align: center;
 }
 .items-center {
     align-items: center;
 }
+.aligt-start {
+    align-items: flex-start;
+}
 
-.fz-11 {
-    font-size: 11px;
+                /*color*/
+
+.grey-color {
+    color: $secondary-color-font;
 }
-.fz-12 {
-    font-size: 12px;
+.white-color {
+    color: $main-color-font;
 }
-.fz-14 {
-    font-size: 14px;
+.blue-bg {
+    background-color: $catalog-bt-blue;
 }
+.orange-bg {
+    background-color: $catalog-bt-orange;
+}
+
+
+                 /*font-size*/
+
 .fz-60 {
     font-size: 60px;
-}
-.fz-18 {
-    font-size: 18px;
-}
-.fz-12 {
-    font-size: 22px;
-}
-.fz-24 {
-    font-size: 24px;
-}
-.fz-28 {
-    font-size: 28px;
-}
-.fz-30 {
-    font-size: 30px;
 }
 .fz-38 {
     font-size: 38px;
 }
+.fz-30 {
+    font-size: 30px;
+}
+.fz-28 {
+    font-size: 28px;
+}
+.fz-24 {
+    font-size: 24px;
+}
+.fz-22 {
+    font-size: 22px;
+}
+.fz-18 {
+    font-size: 18px;
+}
+.fz-14 {
+    font-size: 14px;
+}
+.fz-12 {
+    font-size: 12px;
+}
+.fz-11 {
+    font-size: 11px;
+}
+
+
+
+
+                    /*text style*/
+
 .uppercase {
     text-transform: uppercase;
 }
 .font-bold {
     font-weight: bold;
 }
+
+                    /* padding and margin*/
+
 .pd-top-100 {
     padding-top: 100px;
 }

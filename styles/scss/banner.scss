@@ -36,3 +36,21 @@ form {
     color: $main-color-font;
 }
 
+                    /*catalog*/
+
+.catalog-banner{
+    background: url("../images/Morten Harket.png") no-repeat;
+    h1 {
+        padding: 280px 0 25px;
+    }
+}
+.catalog-button{
+    height: 50px;
+    width: 200px;
+    margin: 40px 0 82px;
+    img {
+        width: 20px;
+        padding: 15px;
+        color: $main-color-font;
+    }
+}

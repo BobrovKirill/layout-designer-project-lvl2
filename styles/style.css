@@ -6,7 +6,7 @@
 }
 
 .wrapper {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -18,17 +18,15 @@
   flex-wrap: wrap;
 }
 
-.colum-center {
+.colum {
   flex-direction: column;
-  align-items: center;
 }
 
-.space-between-center {
+.space-between {
   justify-content: space-between;
-  align-items: center;
 }
 
-.align-center {
+.text-center {
   text-align: center;
 }
 
@@ -36,46 +34,69 @@
   align-items: center;
 }
 
-.fz-11 {
-  font-size: 11px;
+.aligt-start {
+  align-items: flex-start;
 }
 
-.fz-12 {
-  font-size: 12px;
+/*color*/
+.grey-color {
+  color: #8c8c8c;
 }
 
-.fz-14 {
-  font-size: 14px;
+.white-color {
+  color: #fff;
 }
 
+.blue-bg {
+  background-color: #5328A1;
+}
+
+.orange-bg {
+  background-color: #95390C;
+}
+
+/*font-size*/
 .fz-60 {
   font-size: 60px;
-}
-
-.fz-18 {
-  font-size: 18px;
-}
-
-.fz-12 {
-  font-size: 22px;
-}
-
-.fz-24 {
-  font-size: 24px;
-}
-
-.fz-28 {
-  font-size: 28px;
-}
-
-.fz-30 {
-  font-size: 30px;
 }
 
 .fz-38 {
   font-size: 38px;
 }
 
+.fz-30 {
+  font-size: 30px;
+}
+
+.fz-28 {
+  font-size: 28px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-22 {
+  font-size: 22px;
+}
+
+.fz-18 {
+  font-size: 18px;
+}
+
+.fz-14 {
+  font-size: 14px;
+}
+
+.fz-12 {
+  font-size: 12px;
+}
+
+.fz-11 {
+  font-size: 11px;
+}
+
+/*text style*/
 .uppercase {
   text-transform: uppercase;
 }
@@ -84,6 +105,7 @@
   font-weight: bold;
 }
 
+/* padding and margin*/
 .pd-top-100 {
   padding-top: 100px;
 }
@@ -149,9 +171,6 @@ header {
   height: 80px;
 }
 
-.logo-header {
-  align-items: center;
-}
 .logo-header img {
   height: 20px;
   width: 20px;
@@ -162,7 +181,7 @@ header {
 }
 
 .header-nav {
-  margin-right: 225px;
+  margin-right: 15%;
 }
 .header-nav a {
   color: #8c8c8c;
@@ -220,13 +239,28 @@ form {
   color: #fff;
 }
 
-.main-bg {
-  background: #000;
+/*catalog*/
+.catalog-banner {
+  background: url("../images/Morten Harket.png") no-repeat;
+}
+.catalog-banner h1 {
+  padding: 280px 0 25px;
+}
+
+.catalog-button {
+  height: 50px;
+  width: 200px;
+  margin: 40px 0 82px;
+}
+.catalog-button img {
+  width: 20px;
+  padding: 15px;
   color: #fff;
 }
 
-.grey-color {
-  color: #8c8c8c;
+.main-bg {
+  background: #000;
+  color: #fff;
 }
 
 .subscribe-1 {
@@ -293,10 +327,6 @@ form {
   margin-left: 135px;
 }
 
-.aligt-start {
-  align-items: flex-start;
-}
-
 .btn-mobil {
   background: #fe4158;
   color: #fff;
@@ -306,6 +336,7 @@ form {
   width: 160px;
 }
 
+/*CATALOG*/
 .bg-footer {
   background: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
 }
@@ -319,6 +350,71 @@ form {
   height: 1px;
   width: 100%;
   background-color: #fff;
+}
+
+@media (max-width: 1280px) {
+  .fz-60 {
+    font-size: 55px;
+  }
+
+  .fz-38 {
+    font-size: 33px;
+  }
+
+  .fz-30 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1024px) {
+  .wrapper {
+    max-width: 950px;
+  }
+
+  .fz-60 {
+    font-size: 50px;
+  }
+
+  .fz-38 {
+    font-size: 25px;
+  }
+
+  .fz-30 {
+    font-size: 18px;
+  }
+
+  .fz-28 {
+    font-size: 16px;
+  }
+
+  .fz-24 {
+    font-size: 22px;
+  }
+
+  .fz-22 {
+    font-size: 20px;
+  }
+
+  .fz-18 {
+    font-size: 16px;
+  }
+
+  .fz-14 {
+    font-size: 12px;
+  }
+
+  .fz-12 {
+    font-size: 11px;
+  }
+
+  .fz-11 {
+    font-size: 11px;
+  }
+
+  .media-author {
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
