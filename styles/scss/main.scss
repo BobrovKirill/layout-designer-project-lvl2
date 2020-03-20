@@ -43,6 +43,7 @@
 }
 .in-about-author{
     margin: 16px 0 51px;
+    width: 50%;
     h4{
         color: $third-color-font;
     }
@@ -52,6 +53,11 @@
     img {
         width: 19px;
     }
+}
+.col {
+    width: 1px;
+    height: 11px;
+    background: $main-color-font;
 }
 .btn-news {
     border: 1px solid $secondary-color-font;

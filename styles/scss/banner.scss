@@ -4,20 +4,20 @@
     color: $main-color-font;
 }
 .chapter {
-    margin: 270px 0 10px;
+    margin: 22% 0 10px;
     text-align: center;
 }
 .mg-for-p {
     margin: 45px 0 40px;
 }
 form {
-    width: 650px;
+    width: 570px;
     margin: 0 auto;
 }
 .input-banner {
     width: 250px;
     height: 50px;
-    margin: 0 15px 30px;
+    margin-bottom: 30px;
     background: $input-color-bg;
     border: 2px solid $input-color-bg;
     border-radius: 3px;
@@ -26,10 +26,9 @@ form {
     color: $main-color-font;
 }
 .btn-banner{
-    margin: 20px 0 200px 0;
-    width: 89%;
+    margin-bottom:22%;
+    width: 100%;
     height: 50px;
-    margin-left: 15px;
     background: $banner-color-bt;
     border-radius: 3px;
     border: none;

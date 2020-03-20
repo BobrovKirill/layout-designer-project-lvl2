@@ -10,18 +10,18 @@
 </head>
 
 <body>
-<header class="wrapper flex space-between items-center">
+<header class="wrapper flex space-between items-center sm-col-left">
     <div class="logo-header flex wrap fz-11 items-center">
         <img src="images/logo.svg" alt="logo">
         <p class="uppercase font-bold">music box</p>
     </div>
-    <nav class="header-nav uppercase font-bold fz-11">
+    <nav class="header-nav flex uppercase font-bold fz-11 sm-col-left sm-order--1">
         <a href="#in_main">главная</a>
         <a href="#in_catalog">каталог</a>
         <a href="#in_executor">исполнители</a>
         <a href="#in_contacs">контакты</a>
     </nav>
-    <input class="header-search uppercase fz-11" type="text" placeholder="ПОИСК... &#128269;">
+    <input class="header-search uppercase fz-11 sm-width-80" type="text" placeholder="ПОИСК... &#128269;">
 </header>
 
 <main>
@@ -29,10 +29,10 @@
         <div class="wrapper flex colum items-center">
             <h1 class="chapter uppercase font-bold fz-60">онлайн музыка где угодно</h1>
             <h2 class="fz-30 uppercase">без ограничений</h2>
-            <p class="mg-for-p  fz-18">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
-            <form class="flex wrap" action="#">
-                <input class="input-banner fz-14" type="text" placeholder="Имя">
-                <input class="input-banner fz-14" type="Email" placeholder="Email">
+            <p class="mg-for-p  fz-18 text-center">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+            <form class="flex wrap space-between" action="#">
+                <input class="input-banner fz-14 sm-width-100" type="text" placeholder="Имя">
+                <input class="input-banner fz-14 sm-width-100" type="Email" placeholder="Email">
                 <button class="btn-banner uppercase fz-14">получить доступ</button>
             </form>
         </div>
@@ -42,33 +42,33 @@
     <div class="main-bg">
         <div class="wrapper pd-top-100">
             <h2 class="text-center uppercase fz-38">формы подписки</h2>
-            <div class="flex wrap pd-top-100">
-                <div class="subscribe width-33 subscribe-1 text-center">
+            <div class="flex space-between pd-top-100 md-colum-center">
+                <div class="subscribe width-33 subscribe-1 text-center md-width-45 sm-width-100 md-mg-bot-50">
                     <h4 class="fz-28 uppercase">бесплатная</h4>
                     <div class="sum flex">
                         <h3 class="fz-60 pd-rt-11">0</h3>
                         <p class="fz-30">руб.</p>
                     </div>
                     <a class="btn-subscribe fz-28 uppercase">оформить</a>
-                    <p class="fz-11 mg-top-50">Оплата в месяц. Бесплатный тариф предоставляет доступ ко вей коллкеции музыки. Присутствуут рекулама</p>
+                    <p class="fz-11 mg-top-50 mg-l-r-40">Оплата в месяц. Бесплатный тариф предоставляет доступ ко вей коллкеции музыки. Присутствуут рекулама</p>
                 </div>
-                <div class="subscribe width-33 subscribe-2 text-center">
+                <div class="subscribe width-33 subscribe-2 text-center md-width-45 sm-width-100 md-mg-bot-50">
                     <h4 class="fz-28 uppercase">стандартная</h4>
                     <div class="sum flex">
                         <h3 class="fz-60 pd-rt-11">250</h3>
                         <p class="fz-30">руб.</p>
                     </div>
                     <a class="btn-subscribe fz-28 uppercase">оформить</a>
-                    <p class="fz-11 mg-top-50">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
+                    <p class="fz-11 mg-top-50 mg-l-r-40">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
                 </div>
-                <div class="subscribe width-33 subscribe-3 text-center">
+                <div class="subscribe width-33 subscribe-3 text-center md-width-45 sm-width-100 md-mg-bot-50">
                     <h4 class="fz-28 uppercase">премиум</h4>
                     <div class="sum flex">
                         <h3 class="fz-60 pd-rt-11">500</h3>
                         <p class="fz-30">руб.</p>
                     </div>
                     <a class="btn-subscribe fz-28 uppercase">оформить</a>
-                    <p class="fz-11 mg-top-50">Оплата в месяц. Премиум тариф предоставляе доступ ко всей коллекции музыки в высоком качестве</p>
+                    <p class="fz-11 mg-top-50 mg-l-r-40">Оплата в месяц. Премиум тариф предоставляе доступ ко всей коллекции музыки в высоком качестве</p>
                 </div>
             </div>
             <h2 class="fz-22 text-center mg-top-50">На всех тарифах возможно прослушивание музыки с мобильных устройств. На тремиум тарифе вы можете скаать все композиции на ваше устройство и слушать музыку без подключения к интернету</h2>
@@ -79,31 +79,37 @@
     <div class="main-bg">
         <div class="wrapper pd-top-100">
             <h2 class="fz-38 uppercase text-center">последние новости</h2>
-            <div class="wrap flex mg-top-50 items-center media-author">
-                <img class="width-45 mg-rt-100" src="images/Music to Be Murdered By.png" alt="eminem">
-                <div class="about-author width-45">
-                    <h2 class="fz-30">Music to be Murdered By</h2>
+            <div class="flex space-between mg-top-50 items-center lg-fd-colum sm-width-100">
+                <img class="width-45 sm-width-80" src="images/Music to Be Murdered By.png" alt="eminem">
+                <div class="about-author width-45 sm-width-80">
+                    <h2 class="fz-30 lg-mg-top-20">Music to be Murdered By</h2>
                     <p class="fz-14">Новый альбом Eminem "Muscic Be Murdered By" уже доступен в нашем сервисе.На альбоме вас ждёт 20 новых треков.</p>
-                    <div class="in-about-author flex wrap width-45 space-between items-center">  
-                        <img src="images/logo.svg" alt="logo">
-                        <h4>music box</h4>
+                    <div class="in-about-author flex space-between items-center">
+                        <div class="flex">
+                            <img class="mg-rt-21" src="images/logo.svg" alt="logo">
+                            <h4>music box</h4>
+                        </div>
+                        <div class="col"></div>  
                         <p>17/01/2020</p>
                     </div>  
                     <a class="btn-news" href="#">к альбому</a>
                 </div>    
             </div>
-            <div class="wrap flex mg-top-50 items-center">
-                <div class="about-author width-45 mg-rt-100">
+            <div class="flex space-between mg-top-50 items-center lg-fd-colum sm-width-100">
+                <div class="about-author width-45 sm-width-80">
                     <h2 class="fz-30">Ordinary Man</h2>
                     <p class="fz-14">Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary Man. Слушайте в числе первых на Music Box</p>
-                    <div class="in-about-author flex wrap width-45 space-between items-center">  
-                        <img src="images/logo.svg" alt="logo">
-                        <h4>music box</h4>
+                    <div class="in-about-author flex wrap space-between items-center sm-width-100">  
+                        <div class="flex">
+                            <img class="mg-rt-21 s" src="images/logo.svg" alt="logo">
+                            <h4>music box</h4>
+                        </div> 
+                        <div class="col"></div>
                         <p>17/01/2020</p>
                     </div>  
                     <a class="btn-news" href="#">к альбому</a>
                 </div>
-                <img class="width-45" src="images/Ordinary Man.png" alt="eminem">    
+                <img class="width-45 lg-mg-top-20 lg-order--1 sm-width-80" src="images/Ordinary Man.png" alt="eminem">    
             </div>
         </div>
     </div>
@@ -111,40 +117,40 @@
     <div class="main-bg">
         <div class="wrapper pd-bot-100">
             <h2 class="fz-38 uppercase pd-top-100 text-center">мобильное приложение</h2>
-            <div class="flex wrap mg-top-50">
-                <div class="flex colum items-center aligt-start width-45 ">
+            <div class="flex space-between mg-top-50 sm-colum-left">
+                <div class="flex colum aligt-start width-45 sm-width-100 sm-order--1">
                     <p class="mg-bot-25 grey-color">Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на базе операционнных систем Androind и iOS</p>
                     <p class="mg-bot-25 grey-color">С тарифом "Премиум" приложение позволяет скачивать все композиции из нашей коллекции. Вы можете слушать музыку даже без интернета.</p>
-                    <button class="btn-mobil fz-14">Cкачать</button>
+                    <button class="btn-mobil fz-14 sm-width-100">Cкачать</button>
                 </div>
-                <img class="width-33 mg-left-135" src="images/iphone.png" alt="iphone">
+                <img class="width-45 sm-width-100" src="images/iphone.png" alt="iphone">
             </div>
         </div>
     </div>
 
     <footer class="bg-footer pd-top-80">
-        <div class="wrapper flex wrap">
-            <div class="flex colum items-center aligt-start mg-rt-100 pd-bot-100 width-18">
+        <div class="wrapper flex space-between wrap  pd-bot-100 ">
+            <div class="flex colum items-center aligt-start width-280px md-mg-bot-40">
                 <p class="fz-18 secondary-font mg-bot-30">О нас</p>
                 <a class="fz-16 secondary-font mg-top-20" href="#">История компании</a>
                 <a class="fz-16 secondary-font mg-top-20" href="#">Карьера</a>
                 <a class="fz-16 secondary-font mg-top-20" href="#">Особенности</a>
                 <a class="fz-16 secondary-font mg-top-20" href="#">Пресса</a>
             </div>
-            <div class="flex colum items-center aligt-start mg-rt-100 width-18">
+            <div class="flex colum items-center aligt-start width-280px md-mg-bot-40">
                 <p class="fz-18 secondary-font mg-bot-30">Поддержка</p>
                 <a class="fz-16 secondary-font mg-top-20" href="#">База знаний</a>
                 <a class="fz-16 secondary-font mg-top-20" href="#">Тариф</a>
                 <a class="fz-16 secondary-font mg-top-20" href="#">Мобильное приложение</a>
                 <a class="fz-16 secondary-font mg-top-20" href="#">Условия использования</a>
             </div>
-            <div class="flex colum items-center aligt-start mg-rt-100 width-18">
+            <div class="flex colum items-center aligt-start width-280px">
                 <p class="fz-18 secondary-font mg-bot-30">Контакты</p>
                 <a class="fz-16 secondary-font mg-top-20" href="#">hello@music.box</a>
                 <a class="fz-16 secondary-font mg-top-20" href="#">Russia, Moscow. Music Box studio</a>
                 <a class="fz-16 secondary-font mg-top-20" href="#">+7 499 999 99 99</a>
             </div>
-            <div class="flex colum items-center aligt-start width-18">
+            <div class="flex colum items-center aligt-start width-280px">
                 <p class="fz-18 secondary-font mg-bot-30">Подписывайтесь</p>
                 <div class="flex">
                     <img class="mg-rt-21" src="images/Google+.png" alt="google">
@@ -156,11 +162,11 @@
         </div>
         <div class="line"></div>
         <div class="wrapper">
-            <div class="flex pd-top-bot-50">
-                <a class="fz-16 secondary-font mg-rt-40" href="#">Магазин</a>
-                <a class="fz-16 secondary-font mg-rt-40" href="#">Обслуживание</a>
-                <a class="fz-16 secondary-font mg-rt-40" href="#">Блок</a>
-                <a class="fz-16 secondary-font mg-rt-40" href="#">Поддержка</a>
+            <div class="flex pd-top-bot-50 sm-colum-left">
+                <a class="fz-16 secondary-font mg-rt-40 sm-mg-bot-20" href="#">Магазин</a>
+                <a class="fz-16 secondary-font mg-rt-40 sm-mg-bot-20" href="#">Обслуживание</a>
+                <a class="fz-16 secondary-font mg-rt-40 sm-mg-bot-20" href="#">Блок</a>
+                <a class="fz-16 secondary-font mg-rt-40 sm-mg-bot-20" href="#">Поддержка</a>
                 <a class="fz-16 secondary-font" href="#">Контакты</a>
             </div>
         </div>
