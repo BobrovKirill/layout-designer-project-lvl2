@@ -21,6 +21,9 @@ header{
     a{
         color: $secondary-color-font;
         margin-right: 30px;
+        &:hover{
+            color: $main-color-font;
+        }
     }
 }
 .header-search {
