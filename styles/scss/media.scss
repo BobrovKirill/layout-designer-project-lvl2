@@ -91,8 +91,38 @@
     .sm-fz-16 {
         font-size: 16px;
     }
+    .sm-fz-14 {
+        font-size: 14px;
+    }
     .sm-fz-12 {
         font-size: 12px;
+    }
+
+
+    .catalog-button {
+        margin: 25px 0 0 0;
+    }
+    .sm-pd-100 {
+        padding-bottom: 100px;
+    }
+
+    .catalog-banner {
+        background-position: 73%;
+    }
+    .albums {
+        height: auto;
+    }
+    .author {
+        width: 130px;
+        margin: 50px 20px 0 0;
+        img {
+            width: 130px;
+            height: 130px;
+        }
+    }
+    .sm-nowrap-left {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
     }
 
 }

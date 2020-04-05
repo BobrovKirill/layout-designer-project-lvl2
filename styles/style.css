@@ -269,6 +269,7 @@ form {
 .catalog-banner {
   background-image: url("../images/Morten Harket.png");
   background-size: cover;
+  background-position: center;
 }
 .catalog-banner h1 {
   padding: 280px 0 25px;
@@ -385,6 +386,7 @@ form {
 }
 .author img {
   height: 250px;
+  width: 250px;
 }
 
 .bg-footer {
@@ -512,8 +514,42 @@ form {
     font-size: 16px;
   }
 
+  .sm-fz-14 {
+    font-size: 14px;
+  }
+
   .sm-fz-12 {
     font-size: 12px;
+  }
+
+  .catalog-button {
+    margin: 25px 0 0 0;
+  }
+
+  .sm-pd-100 {
+    padding-bottom: 100px;
+  }
+
+  .catalog-banner {
+    background-position: 73%;
+  }
+
+  .albums {
+    height: auto;
+  }
+
+  .author {
+    width: 130px;
+    margin: 50px 20px 0 0;
+  }
+  .author img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .sm-nowrap-left {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
   }
 }
 
