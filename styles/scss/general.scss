@@ -21,6 +21,9 @@
 .colum {
     flex-direction: column;
 }
+.colum-wrap {
+    flex-flow: column wrap;
+}
 .space-between {
 justify-content: space-between;
 }
@@ -72,8 +75,14 @@ justify-content: space-between;
 .fz-22 {
     font-size: 22px;
 }
+.fz-20 {
+    font-size: 20px;
+}
 .fz-18 {
     font-size: 18px;
+}
+.fz-16 {
+    font-size: 16px;
 }
 .fz-14 {
     font-size: 14px;
@@ -135,6 +144,9 @@ justify-content: space-between;
 .mg-l-r-40 {
     padding: 0 40px;
 }
+.mg-top-10 {
+    margin-top: 10px;
+}
 .width-280px {
     width: 280px;
 }
@@ -143,4 +155,7 @@ justify-content: space-between;
 }
 .width-45 {
     width: 45%;
+}
+.h-50 {
+    height: 50px;
 }

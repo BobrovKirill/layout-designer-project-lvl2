@@ -38,7 +38,8 @@ form {
                     /*catalog*/
 
 .catalog-banner{
-    background: url("../images/Morten Harket.png") no-repeat;
+    background-image: url("../images/Morten Harket.png");
+    background-size: cover;
     h1 {
         padding: 280px 0 25px;
     }
@@ -46,7 +47,7 @@ form {
 .catalog-button{
     height: 50px;
     width: 200px;
-    margin: 40px 0 82px;
+    margin: 40px 35px 82px 0;
     img {
         width: 20px;
         padding: 15px;
