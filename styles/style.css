@@ -22,10 +22,6 @@
   flex-direction: column;
 }
 
-.colum-wrap {
-  flex-flow: column wrap;
-}
-
 .space-between {
   justify-content: space-between;
 }
@@ -38,7 +34,7 @@
   align-items: center;
 }
 
-.aligt-start {
+.align-start {
   align-items: flex-start;
 }
 
@@ -74,10 +70,6 @@
 
 .fz-28 {
   font-size: 28px;
-}
-
-.fz-24 {
-  font-size: 24px;
 }
 
 .fz-22 {
@@ -118,32 +110,34 @@
 }
 
 /* padding and margin*/
+/*padding*/
 .pd-top-100 {
   padding-top: 100px;
-}
-
-.pd-top-80 {
-  padding-top: 80px;
 }
 
 .pd-bot-100 {
   padding-bottom: 100px;
 }
 
+.pd-top-bot-50 {
+  padding: 50px 0;
+}
+
+/*margin*/
 .mg-top-50 {
   margin-top: 50px;
 }
 
-.mg-rt-100 {
-  margin-right: 100px;
+.mg-top-20 {
+  margin-bottom: 20px;
+}
+
+.mg-top-10 {
+  margin-top: 10px;
 }
 
 .mg-bot-25 {
   margin-bottom: 25px;
-}
-
-.mg-top-20 {
-  margin-bottom: 20px;
 }
 
 .mg-bot-30 {
@@ -158,18 +152,15 @@
   margin-right: 40px;
 }
 
-.pd-top-bot-50 {
-  padding: 50px 0;
+.mg-rt-100 {
+  margin-right: 100px;
 }
 
 .mg-l-r-40 {
   padding: 0 40px;
 }
 
-.mg-top-10 {
-  margin-top: 10px;
-}
-
+/*width*/
 .width-280px {
   width: 280px;
 }
@@ -182,7 +173,7 @@
   width: 45%;
 }
 
-.h-50 {
+.h-50px {
   height: 50px;
 }
 
@@ -264,6 +255,11 @@ form {
   border: none;
   color: #fff;
 }
+.btn-banner:hover {
+  color: #000;
+  background: #95390C;
+  cursor: pointer;
+}
 
 /*catalog*/
 .catalog-banner {
@@ -284,6 +280,10 @@ form {
   width: 20px;
   padding: 15px;
   color: #fff;
+}
+.catalog-button:hover {
+  background: #33c175;
+  cursor: pointer;
 }
 
 .main-bg {
@@ -322,6 +322,11 @@ form {
   color: #fff;
   padding: 5% 18%;
 }
+.btn-subscribe:hover {
+  border-color: #000;
+  color: #000;
+  cursor: pointer;
+}
 
 /*NEWS*/
 .about-author h2 {
@@ -356,6 +361,11 @@ form {
   padding: 6px 30px;
   color: #8c8c8c;
 }
+.btn-news:hover {
+  color: #000;
+  background: #95390C;
+  cursor: pointer;
+}
 
 /*MOBIL*/
 .mg-left-135 {
@@ -369,6 +379,11 @@ form {
   border: none;
   height: 50px;
   width: 160px;
+}
+.btn-mobil:hover {
+  color: #000;
+  background: #95390C;
+  cursor: pointer;
 }
 
 /*CATALOG*/
@@ -387,6 +402,10 @@ form {
 .author img {
   height: 250px;
   width: 250px;
+}
+
+footer {
+  padding-top: 80px;
 }
 
 .bg-footer {

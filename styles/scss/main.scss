@@ -28,6 +28,11 @@
     border: 4px solid $main-color-font;
     color: $main-color-font;
     padding: 5% 18%;
+    &:hover {
+        border-color: $main-color-bg;
+        color: $main-color-bg;
+        cursor: pointer;
+    }
 }
 
                                     /*NEWS*/
@@ -63,6 +68,11 @@
     border: 1px solid $secondary-color-font;
     padding: 6px 30px;
     color: $secondary-color-font;
+    &:hover {
+        color: $main-color-bg;
+        background: $catalog-bt-orange;
+        cursor: pointer;
+    }
 }
 
                         /*MOBIL*/
@@ -77,6 +87,11 @@
     border: none;
     height: 50px;
     width: 160px;
+    &:hover {
+        color: $main-color-bg;
+        background: $catalog-bt-orange;
+        cursor: pointer;
+    }
 }
 
                     /*CATALOG*/
