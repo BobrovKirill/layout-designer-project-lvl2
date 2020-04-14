@@ -24,6 +24,9 @@
 .space-between {
 justify-content: space-between;
 }
+.space-around {
+    justify-content: space-around;
+}
 .text-center {
     text-align: center;
 }
@@ -119,16 +122,28 @@ justify-content: space-between;
 .mg-top-50 {
     margin-top: 50px;
 }
+.mg-top-25 {
+    margin-top: 25px;
+}
+.mg-top-50 {
+    margin-top: 50px;
+}
 .mg-top-20 {
     margin-bottom: 20px;
 }
 .mg-top-10 {
     margin-top: 10px;
 }
+.mg-bot-15 {
+    margin-bottom: 15px;
+}
 .mg-bot-25 {
     margin-bottom: 25px;
 }
 .mg-bot-30 {
+    margin-bottom: 30px;
+}
+.mg-bot-50 {
     margin-bottom: 30px;
 }
 .mg-rt-21 {
@@ -140,8 +155,8 @@ justify-content: space-between;
 .mg-rt-100 {
     margin-right: 100px;
 }
-.mg-l-r-40 {
-    padding: 0 40px;
+.mg-l-r-0 {
+    padding: 0 20px;
 }
 
 /*width*/
