@@ -110,9 +110,18 @@
 .author {
     width: 250px;
     margin: 50px 50px 0 0;
-    img {
-        height: 250px;
-        width: 250px;
-    }
 }
-
+.img-box {
+    position: relative;
+}
+.img-author {
+    height: 250px;
+    width: 250px;
+}
+.img-play {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 10px;
+    left: 15px;
+}

@@ -59,6 +59,10 @@
   background-color: #95390C;
 }
 
+.filter-invert-1 {
+  filter: invert(1);
+}
+
 /*font-size*/
 .fz-60 {
   font-size: 60px;
@@ -113,6 +117,14 @@
   font-weight: bold;
 }
 
+.line-height-20 {
+  line-height: 20px;
+}
+
+.line-height-28 {
+  line-height: 28px;
+}
+
 /* padding and margin*/
 /*padding*/
 .pd-top-100 {
@@ -141,7 +153,7 @@
 }
 
 .mg-top-20 {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .mg-top-10 {
@@ -150,6 +162,10 @@
 
 .mg-bot-15 {
   margin-bottom: 15px;
+}
+
+.mg-bot-20 {
+  margin-bottom: 20px;
 }
 
 .mg-bot-25 {
@@ -199,11 +215,10 @@
 
 header {
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
   right: 0;
   z-index: 10;
-  height: 80px;
 }
 
 .logo-header img {
@@ -423,21 +438,34 @@ form {
   width: 250px;
   margin: 50px 50px 0 0;
 }
-.author img {
+
+.img-box {
+  position: relative;
+}
+
+.img-author {
   height: 250px;
   width: 250px;
 }
 
+.img-play {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  bottom: 10px;
+  left: 15px;
+}
+
 footer {
   padding-top: 80px;
+  color: #CACACA;
+}
+footer a {
+  color: #CACACA;
 }
 
 .bg-footer {
   background: linear-gradient(89.02deg, #5328A1 32.83%, #95390C 81.56%);
-}
-
-.secondary-font {
-  color: #8c8c8c;
 }
 
 .line {
@@ -486,10 +514,6 @@ a:hover {
   }
 }
 @media all and (max-width: 768px) {
-  .ra {
-    align-content: flex-start;
-  }
-
   .md-mg-bot-40 {
     margin-bottom: 40px;
   }
@@ -546,10 +570,6 @@ a:hover {
     order: 1;
   }
 
-  .logo-header {
-    margin: 30px 0 20px;
-  }
-
   .header-search {
     margin-bottom: 20px;
   }
@@ -573,6 +593,14 @@ a:hover {
 
   .sm-mg-bot-20 {
     margin-bottom: 20px;
+  }
+
+  .sm-mg-bot-10 {
+    margin-bottom: 10px;
+  }
+
+  .sm-mg-top-5 {
+    margin-top: 5px;
   }
 
   .sm-fz-30 {
@@ -619,9 +647,17 @@ a:hover {
     width: 130px;
     margin: 50px 20px 0 0;
   }
-  .author img {
+
+  .img-author {
     width: 130px;
     height: 130px;
+  }
+
+  .img-play {
+    width: 15px;
+    height: 15px;
+    bottom: 5px;
+    left: 5px;
   }
 
   .sm-nowrap-left {

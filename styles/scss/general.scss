@@ -51,7 +51,9 @@ justify-content: space-between;
 .orange-bg {
     background-color: $catalog-bt-orange;
 }
-
+.filter-invert-1 {
+    filter: invert(1);
+}
 
                  /*font-size*/
 
@@ -102,6 +104,12 @@ justify-content: space-between;
 .font-bold {
     font-weight: bold;
 }
+.line-height-20 {
+    line-height: 20px;
+}
+.line-height-28 {
+    line-height: 28px;
+}
 
                     /* padding and margin*/
 
@@ -129,13 +137,16 @@ justify-content: space-between;
     margin-top: 50px;
 }
 .mg-top-20 {
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .mg-top-10 {
     margin-top: 10px;
 }
 .mg-bot-15 {
     margin-bottom: 15px;
+}
+.mg-bot-20 {
+    margin-bottom: 20px;
 }
 .mg-bot-25 {
     margin-bottom: 25px;
