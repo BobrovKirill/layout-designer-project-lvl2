@@ -4,9 +4,6 @@
     }
 }
 @media (max-width: 1024px){
-    .wrapper{
-        max-width: 95%;
-    }
 
     .lg-fd-colum {
         flex-direction: column;
@@ -138,6 +135,7 @@
     .author {
         width: 130px;
         margin: 50px 20px 0 0;
+        
     }
     .img-author {
         width: 130px;
