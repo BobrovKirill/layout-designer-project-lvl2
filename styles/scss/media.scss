@@ -26,7 +26,13 @@
     }
 }
 @media all and (max-width: 768px){
-
+    
+    h1 {
+        font-size: 45px;
+    }
+    .header-search {
+        margin-left: unset;
+    }
     .md-mg-bot-40 {
         margin-bottom: 40px;
     }
@@ -44,9 +50,6 @@
     .md-width-45 {
         width: 45%;
     }
-    .md-fz-45 {
-        font-size: 45px;
-    }
     .subscribe {
         width: 280px;
         height: 463px;
@@ -63,6 +66,12 @@
 }
 @media (max-width: 425px){
 
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
     .sm-col-left{
     flex-direction: column;
     align-items: flex-start;
@@ -98,13 +107,7 @@
     .sm-mg-top-5 {
         margin-top: 5px;
     }
-
-    .sm-fz-30 {
-        font-size: 30px;
-    }
-    .sm-fz-20 {
-        font-size: 20px;
-    }
+    
     .sm-fz-18 {
         font-size: 18px;
     }

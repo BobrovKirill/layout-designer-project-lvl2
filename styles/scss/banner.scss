@@ -1,4 +1,4 @@
-.banner {
+.main-welcome {
     background: url("../images/banner.png") no-repeat center;
     width: 100%;
     color: $main-color-font;
@@ -14,7 +14,7 @@ form {
     width: 570px;
     margin: 0 auto;
 }
-.input-banner {
+.input-welcome {
     width: 43%;
     height: 50px;
     margin-bottom: 30px;
@@ -25,7 +25,7 @@ form {
     align-items: center;
     color: $main-color-font;
 }
-.btn-banner{
+.btn-welcome {
     margin-bottom:22%;
     width: 100%;
     height: 50px;
@@ -42,7 +42,7 @@ form {
 
                     /*catalog*/
 
-.catalog-banner{
+.catalog-welcome {
     background-image: url("../images/Morten Harket.png");
     background-size: cover;
     background-position: center;

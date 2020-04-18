@@ -6,6 +6,7 @@ header{
     z-index: 10;
 }
 .logo-header {
+    margin-right: 10%;
     img {
         height: 20px;
         width: 20px;
@@ -16,7 +17,6 @@ header{
     }
 }
 .header-nav{
-    margin-right: 15%;
     a{
         color: $secondary-color-font;
         margin-right: 30px;
@@ -26,6 +26,7 @@ header{
     }
 }
 .header-search {
+    margin-left: auto;
     border: none;
     border-radius: 50px;
     background: $input-color-bg;

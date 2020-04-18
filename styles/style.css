@@ -5,6 +5,30 @@
   font-family: "Roboto", sans-serif;
 }
 
+section {
+  background: #000;
+}
+
+p, h1, h2, h3, h4 {
+  color: #fff;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -221,6 +245,9 @@ header {
   z-index: 10;
 }
 
+.logo-header {
+  margin-right: 10%;
+}
 .logo-header img {
   height: 20px;
   width: 20px;
@@ -230,9 +257,6 @@ header {
   color: #fff;
 }
 
-.header-nav {
-  margin-right: 15%;
-}
 .header-nav a {
   color: #8c8c8c;
   margin-right: 30px;
@@ -242,6 +266,7 @@ header {
 }
 
 .header-search {
+  margin-left: auto;
   border: none;
   border-radius: 50px;
   background: rgba(255, 255, 255, 0.1);
@@ -249,7 +274,7 @@ header {
   width: 23%;
 }
 
-.banner {
+.main-welcome {
   background: url("../images/banner.png") no-repeat center;
   width: 100%;
   color: #fff;
@@ -269,7 +294,7 @@ form {
   margin: 0 auto;
 }
 
-.input-banner {
+.input-welcome {
   width: 43%;
   height: 50px;
   margin-bottom: 30px;
@@ -281,7 +306,7 @@ form {
   color: #fff;
 }
 
-.btn-banner {
+.btn-welcome {
   margin-bottom: 22%;
   width: 100%;
   height: 50px;
@@ -290,19 +315,19 @@ form {
   border: none;
   color: #fff;
 }
-.btn-banner:hover {
+.btn-welcome:hover {
   color: #000;
   background: #95390C;
   cursor: pointer;
 }
 
 /*catalog*/
-.catalog-banner {
+.catalog-welcome {
   background-image: url("../images/Morten Harket.png");
   background-size: cover;
   background-position: center;
 }
-.catalog-banner h1 {
+.catalog-welcome h1 {
   padding: 280px 0 25px;
 }
 
@@ -510,6 +535,14 @@ a:hover {
   }
 }
 @media all and (max-width: 768px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  .header-search {
+    margin-left: unset;
+  }
+
   .md-mg-bot-40 {
     margin-bottom: 40px;
   }
@@ -531,10 +564,6 @@ a:hover {
     width: 45%;
   }
 
-  .md-fz-45 {
-    font-size: 45px;
-  }
-
   .subscribe {
     width: 280px;
     height: 463px;
@@ -553,6 +582,14 @@ a:hover {
   }
 }
 @media (max-width: 425px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
   .sm-col-left {
     flex-direction: column;
     align-items: flex-start;
@@ -597,14 +634,6 @@ a:hover {
 
   .sm-mg-top-5 {
     margin-top: 5px;
-  }
-
-  .sm-fz-30 {
-    font-size: 30px;
-  }
-
-  .sm-fz-20 {
-    font-size: 20px;
   }
 
   .sm-fz-18 {
