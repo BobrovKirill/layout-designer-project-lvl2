@@ -9,83 +9,83 @@
     <meta name="viewport" content="width=device-width">
 </head>
 <body>
-    <header class="wrapper flex wrap sm-nowrap items-center sm-col-left">
-        <div class="logo-header flex wrap fz-11 mg-bot-15 items-center">
+    <header class="wrapper header sm-header-vers">
+        <div class="logo-header">
             <img src="images/logo.svg" alt="logo">
-            <p class="uppercase font-bold">music box</p>
+            <p>music box</p>
         </div>
-        <nav class="header-nav flex uppercase font-bold fz-11 mg-bot-15 sm-col-left sm-order--1">
+        <nav class="header-nav sm-header-vers sm-order--1">
             <a href="#in_main">главная</a>
             <a href="#in_catalog">каталог</a>
             <a href="catalog.html">исполнители</a>
             <a href="#in_contacs">контакты</a>
         </nav>
-        <input class="header-search uppercase fz-11 mg-bot-15 md-width-45 sm-width-80" type="text" placeholder="ПОИСК... &#128269;">
+        <input class="header-search" type="text" placeholder="ПОИСК... &#128269;">
     </header>
 
     <main>
-        <section class="catalog-welcome white-color sm-pd-100" id="in_main">
-            <div class="wrapper">
+        <section class="catalog-welcome" id="in_main">
+            <div class="wrapper pd-reset main main-catalog">
                 <h1 class="font-bold">marten harket</h1>
-                <p class="fz-18 sm-fz-14">24 875 поклонников</p>
-                <div class="flex sm-colum-left">
-                    <div class="flex catalog-button blue-bg items-center sm-width-100">
+                <p class="sm-fz-14">24 875 поклонников</p>
+                <form class="form form-catalog">
+                    <button class="btn btn-catalog blue-bg sm-width-100 sm-mg-bot-20">
                         <img class="filter-invert-1" src="images/play.svg" alt="">
-                        <a class="uppercase fz-14 white-color" href="#">микс</a>
-                    </div>
-                    <div class="flex catalog-button orange-bg items-center sm-width-100">
+                        микс
+                    </button>
+                    <button class="btn btn-catalog orange-bg sm-width-100">
                         <img class="filter-invert-1" src="images/heart.svg" alt="">
-                        <a class="uppercase fz-14 white-color" href="#">в избранное</a>
-                    </div>
-                </div>
+                        в избранное
+                    </button>
+                </form>
             </div>
         </section>
 
         <section id="in_catalog">
             <div class="wrapper">
-                <h2 class="font-bold pd-top-100 ">популярные треки</h2>
-                <div class="albums mg-top-50 flex colum wrap space-between sm-nowrap-left">
-                    <div class="h-50px flex space-between width-45 items-center sm-width-100 sm-mg-bot-20">
-                        <div class="flex items-center ">
+                <h2 class="rubric pd-top-100">популярные треки</h2>
+                <div class="albums">
+                    <div class="album sm-mg-bot-20">
+                        <div class="flex flex-items-center">
                             <img src="images/Wild Seed.png" alt="">
-                            <p class="fz-14 line-height-20">Spanish Steps <br> <span class="fz-12 grey-color">Mothen Harket</span></p>
+                            <p class="line-height-20">Spanish Steps <br> <span class="fz-12 grey-color">Mothen Harket</span></p>
                         </div>
-                        <p class="fz-14 grey-color">4:07</p>
+                        <p class="grey-color">4:07</p>
                     </div>
-                    <div class="flex space-between width-45 items-center sm-width-100 sm-mg-bot-20">
-                        <div class="flex items-center">
+                    <div class="album sm-mg-bot-20">
+                        <div class="flex flex-items-center">
                             <img src="images/Brother.png" alt="">
-                            <p class="fz-14 line-height-20">Brother <br> <span class="fz-12 grey-color ">Mothen Harket</span></p>
+                            <p class="line-height-20">Brother <br> <span class="fz-12 grey-color ">Mothen Harket</span></p>
                         </div>
-                        <p class="fz-14 grey-color">5:05</p>
+                        <p class="grey-color">5:05</p>
                     </div>
-                    <div class="flex space-between width-45 items-center sm-width-100 sm-mg-bot-20">
-                        <div class="flex items-center">
+                    <div class="album sm-mg-bot-20">
+                        <div class="flex flex-items-center">
                             <img src="images/Letter from Egypt.png" alt="">
-                            <p class="fz-14 line-height-20">Darkspace <br> <span class="fz-12 grey-color">Mothen Harket</span></p>
+                            <p class="line-height-20">Darkspace <br> <span class="fz-12 grey-color">Mothen Harket</span></p>
                         </div>
-                        <p class="fz-14 grey-color">3:45</p>
+                        <p class="grey-color">3:45</p>
                     </div>
-                    <div class="flex space-between width-45 items-center sm-width-100 sm-mg-bot-20">
-                        <div class="flex items-center">
+                    <div class="album sm-mg-bot-20">
+                        <div class="flex flex-items-center">
                             <img src="images/Letter from Egypt.png" alt="">
-                            <p class="fz-14 line-height-20">With You - With Me <br> <span class="fz-12 grey-color">Mothen Harket</span></p>
+                            <p class="line-height-20">With You - With Me <br> <span class="fz-12 grey-color">Mothen Harket</span></p>
                         </div>
-                        <p class="fz-14 grey-color">3:48</p>
+                        <p class="grey-color">3:48</p>
                     </div>
-                    <div class="flex space-between width-45 items-center sm-width-100 sm-mg-bot-20">
-                        <div class="flex items-center">
+                    <div class="album sm-mg-bot-20">
+                        <div class="flex flex-items-center">
                             <img src="images/Wild Seed.png" alt="">
-                            <p class="fz-14 line-height-20">Brodsky Tune <br> <span class="fz-12 grey-color">Mothen Harket</span></p>
+                            <p class="line-height-20">Brodsky Tune <br> <span class="fz-12 grey-color">Mothen Harket</span></p>
                         </div>
-                        <p class="fz-14 grey-color">4:24</p>
+                        <p class=" grey-color">4:24</p>
                     </div>
-                    <div class="flex space-between width-45 items-center sm-width-100">
-                        <div class="flex items-center">
+                    <div class="album">
+                        <div class="flex flex-items-center">
                             <img src="images/Out of My Hands.png" alt="">
-                            <p class="fz-14 line-height-20">Burn Money Burn <br> <span class="fz-12 grey-color">Mothen Harket</span></p>
+                            <p class="line-height-20">Burn Money Burn <br> <span class="fz-12 grey-color">Mothen Harket</span></p>
                         </div>
-                        <p class="fz-14 grey-color">3:52</p>
+                        <p class="grey-color">3:52</p>
                     </div>
                 </div>
             </div>
@@ -93,55 +93,55 @@
 
         <section id="in_executor">
             <div class="wrapper">
-                <h2 class="font-bold pd-top-100">дискография</h2>
-                <div class=" flex wrap">
+                <h2 class="rubric">дискография</h2>
+                <div class="catalog-content">
                     <div class="author">
                         <div class="img-box">
                             <img class="img-author" src="images/Brother.png" alt="">
-                            <img class="img-play filter-invert-1" src="images/play.svg" alt="">
+                            <img class="img-play" src="images/play.svg" alt="">
                         </div>
-                        <p class="fz-20 sm-fz-16 mg-top-10">Brother</p>
-                        <p class="fz-16 grey-color mg-top-10 sm-mg-top-5 sm-fz-14">2014</p>
+                        <h6 class="mg-top-10">Brother</h6>
+                        <p class="grey-color mg-top-10 sm-mg-top-5">2014</p>
                     </div>
                     <div class="author">
                         <div class="img-box">
                             <img class="img-author" src="images/Out of My Hands.png" alt="">
-                            <img class="img-play filter-invert-1" src="images/play.svg" alt="">
+                            <img class="img-play" src="images/play.svg" alt="">
                         </div>
-                        <p class="fz-20 sm-fz-16 mg-top-10">Out of My Hands</p>
-                        <p class="fz-16 mg-top-10 sm-mg-top-5 sm-fz-14 grey-color">2012</p>
+                        <h6 class="mg-top-10">Out of My Hands</h6>
+                        <p class="mg-top-10 sm-mg-top-5 grey-color">2012</p>
                     </div>
                     <div class="author">
                         <div class="img-box">
                             <img class="img-author" src="images/Letter from Egypt.png" alt="">
-                            <img class="img-play filter-invert-1" src="images/play.svg" alt="">
+                            <img class="img-play" src="images/play.svg" alt="">
                         </div>
-                        <p class="fz-20 sm-fz-16 mg-top-10">Letter from Egypt</p>
-                        <p class="fz-16 mg-top-10 sm-mg-top-5 sm-fz-14 grey-color">2008</p>
+                        <h6 class="mg-top-10">Letter from Egypt</h6>
+                        <p class="mg-top-10 sm-mg-top-5 grey-color">2008</p>
                     </div>
                     <div class="author">
                         <div class="img-box">
                             <img class="img-author" src="images/Vogts Villa.png" alt="">
-                            <img class="img-play filter-invert-1" src="images/play.svg" alt="">
+                            <img class="img-play" src="images/play.svg" alt="">
                         </div>
-                        <p class="fz-20 sm-fz-16 mg-top-10">Vogts Villa</p>
-                        <p class="fz-16 mg-top-10 sm-mg-top-5 sm-fz-14 grey-color">1996</p>
+                        <h6 class="mg-top-10">Vogts Villa</h6>
+                        <p class="mg-top-10 sm-mg-top-5 grey-color">1996</p>
                     </div>
                     <div class="author">
                         <div class="img-box">
                             <img class="img-author" src="images/Wild Seed.png" alt="">
-                            <img class="img-play filter-invert-1" src="images/play.svg" alt="">
+                            <img class="img-play" src="images/play.svg" alt="">
                         </div>
-                        <p class="fz-20 sm-fz-16 mg-top-10">Wild Seed</p>
-                        <p class="fz-16 mg-top-10 sm-mg-top-5 sm-fz-14 grey-color">1995</p>
+                        <h6 class="mg-top-10">Wild Seed</h6>
+                        <p class="mg-top-10 sm-mg-top-5 grey-color">1995</p>
                     </div>
                     <div class="author">
                         <div class="img-box">
                             <img class="img-author" src="images/Poetenes Evangelium.png" alt="">
-                            <img class="img-play filter-invert-1" src="images/play.svg" alt="">
+                            <img class="img-play" src="images/play.svg" alt="">
                         </div>
-                        <p class="fz-20 sm-fz-16 mg-top-10">Poetenes Evangeliun</p>
-                        <p class="fz-16 mg-top-10 sm-mg-top-5 sm-fz-14 grey-color">1993</p>
+                        <h6 class="mg-top-10">Poetenes Evangeliun</h6>
+                        <p class="mg-top-10 sm-mg-top-5 grey-color">1993</p>
                     </div>
                 </div>
             </div>
@@ -149,77 +149,77 @@
 
         <section class="pd-bot-100">
             <div class="wrapper">
-                <h2 class="font-bold pd-top-100">Похожие исполнители</h2>
-                <div class="flex wrap">
+                <h2 class="rubric">Похожие исполнители</h2>
+                <div class="catalog-content">
                     <div class="author text-center">
                         <img class="img-author mg-bot-15 sm-mg-bot-10" src="images/A-ha.png" alt="">
-                        <p class="fz-20 sm-fz-16">A-ha</p>
-                        <p class="fz-16 mg-top-10 sm-fz-14">417 086 поклонников</p>
+                        <h6>A-ha</h6>
+                        <p class="mg-top-10">417 086 поклонников</p>
                     </div>
                     <div class="author text-center">
                         <img class="img-author mg-bot-15 sm-mg-bot-10" src="images/Tears for Fears.png" alt="">
-                        <p class="fz-20 sm-fz-16">Tears for Fears</p>
-                        <p class="fz-16 mg-top-10 sm-fz-14">434 086 поклонников</p>
+                        <h6>Tears for Fears</h6>
+                        <p class="mg-top-10">434 086 поклонников</p>
                     </div>
                     <div class="author text-center">
                         <img class="img-author mg-bot-15 sm-mg-bot-10" src="images/Duran Duran.png" alt="">
-                        <p class="fz-20 sm-fz-16">Duran Duran</p>
-                        <p class="fz-16 mg-top-10 sm-fz-14">631 071 поклонников</p>
+                        <h6>Duran Duran</h6>
+                        <p class="mg-top-10">631 071 поклонников</p>
                     </div>
                     <div class="author text-center">
                         <img class="img-author mg-bot-15 sm-mg-bot-10" src="images/Jack Savoretti.png" alt="">
-                        <p class="fz-20 sm-fz-16">Jack Savoretti</p>
-                        <p class="fz-16 mg-top-10 sm-fz-14">26 857 поклонников</p>
+                        <h6>Jack Savoretti</h6>
+                        <p class="mg-top-10">26 857 поклонников</p>
                     </div>
                     <div class="author text-center">
                         <img class="img-author mg-bot-15 sm-mg-bot-10" src="images/Keane.png" alt="">
-                        <p class="fz-20 sm-fz-16">Keane</p>
-                        <p class="fz-16 mg-top-10 sm-fz-14">1 704 358 поклонников</p>
+                        <h6>Keane</h6>
+                        <p class="mg-top-10">1 704 358 поклонников</p>
                     </div>
                     <div class="author text-center">
                         <img class="img-author mg-bot-15 sm-mg-bot-10" src="images/Frank Sinatra.png" alt="">
-                        <p class="fz-20 sm-fz-16">Frank Sinatra</p>
-                        <p class="fz-16 mg-top-10 sm-fz-14">1 653 882 поклонников</p>
+                        <h6>Frank Sinatra</h6>
+                        <p class="mg-top-10">1 653 882 поклонников</p>
                     </div>
                     <div class="author text-center">
                         <img class="img-author mg-bot-15 sm-mg-bot-10" src="images/Paul Young.png" alt="">
-                        <p class="fz-20 sm-fz-16">Paul Young</p>
-                        <p class="fz-16 mg-top-10 sm-fz-14">50 329 поклонников</p>
+                        <h6>Paul Young</h6>
+                        <p class="mg-top-10">50 329 поклонников</p>
                     </div>
                     <div class="author text-center"> 
                         <img class="img-author mg-bot-15 sm-mg-bot-10" src="images/Chris Rea.png" alt="">
-                        <p class="fz-20 sm-fz-16">Chris Rea</p>
-                        <p class="fz-16 mg-top-10 sm-fz-14">73 351 поклонников</p>
+                        <h6>Chris Rea</h6>
+                        <p class="mg-top-10">73 351 поклонников</p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="bg-footer" id="in_contacs">
-        <div class="wrapper flex space-between wrap  pd-bot-100 ">
-            <div class="flex colum items-center align-start width-280px md-mg-bot-40">
-                <p class="fz-18 font-bold secondary-font mg-bot-30">О нас</p>
-                <a class="fz-16 secondary-font mg-top-20" href="#">История компании</a>
-                <a class="fz-16 secondary-font mg-top-20" href="#">Карьера</a>
-                <a class="fz-16 secondary-font mg-top-20" href="#">Особенности</a>
-                <a class="fz-16 secondary-font mg-top-20" href="#">Пресса</a>
+    <footer class="footer" id="in_contacs">
+        <div class="wrapper footer-cols">
+            <div class="footer-contacts md-mg-bot-40">
+                <p>О нас</p>
+                <a href="#">История компании</a>
+                <a href="#">Карьера</a>
+                <a href="#">Особенности</a>
+                <a href="#">Пресса</a>
             </div>
-            <div class="flex colum items-center align-start width-280px md-mg-bot-40">
-                <p class="fz-18 font-bold secondary-font mg-bot-30">Поддержка</p>
-                <a class="fz-16 secondary-font mg-top-20" href="#">База знаний</a>
-                <a class="fz-16 secondary-font mg-top-20" href="#">Тариф</a>
-                <a class="fz-16 secondary-font mg-top-20" href="#">Мобильное приложение</a>
-                <a class="fz-16 secondary-font mg-top-20" href="#">Условия использования</a>
+            <div class="footer-contacts md-mg-bot-40">
+                <p>Поддержка</p>
+                <a href="#">База знаний</a>
+                <a href="#">Тариф</a>
+                <a href="#">Мобильное приложение</a>
+                <a href="#">Условия использования</a>
             </div>
-            <div class="flex colum items-center align-start width-280px">
-                <p class="fz-18 font-bold secondary-font mg-bot-30">Контакты</p>
-                <a class="fz-16 secondary-font mg-top-20" href="#">hello@music.box</a>
-                <a class="fz-16 secondary-font mg-top-20" href="#">Russia, Moscow. Music Box studio</a>
-                <a class="fz-16 secondary-font mg-top-20" href="#">+7 499 999 99 99</a>
+            <div class="footer-contacts">
+                <p>Контакты</p>
+                <a href="#">hello@music.box</a>
+                <a href="#">Russia, Moscow. Music Box studio</a>
+                <a href="#">+7 499 999 99 99</a>
             </div>
-            <div class="flex colum items-center align-start width-280px">
-                <p class="fz-18 font-bold secondary-font mg-bot-30">Подписывайтесь</p>
+            <div class="footer-contacts">
+                <p>Подписывайтесь</p>
                 <div class="flex">
                     <img class="mg-rt-21" src="images/Google+.png" alt="google">
                     <img class="mg-rt-21" src="images/Twitter.png" alt="twitter">
@@ -229,13 +229,13 @@
             </div>
         </div>
         <div class="line"></div>
-        <div class="wrapper">
-            <div class="flex wrap pd-top-bot-50 sm-colum-left">
-                <a class="fz-16 mg-rt-40 secondary-font  md-mg-bot-20" href="#">Магазин</a>
-                <a class="fz-16 mg-rt-40 secondary-font  md-mg-bot-20" href="#">Обслуживание</a>
-                <a class="fz-16 mg-rt-40 secondary-font  md-mg-bot-20" href="#">Блок</a>
-                <a class="fz-16 mg-rt-40 secondary-font  md-mg-bot-20" href="#">Поддержка</a>
-                <a class="fz-16 secondary-font" href="#">Контакты</a>
+        <div class="wrapper pd-top-bot-50">
+            <div class="footer-nav sm-colum-left">
+                <a class=" mg-rt-40  md-mg-bot-20" href="#">Магазин</a>
+                <a class=" mg-rt-40  md-mg-bot-20" href="#">Обслуживание</a>
+                <a class=" mg-rt-40  md-mg-bot-20" href="#">Блок</a>
+                <a class=" mg-rt-40  md-mg-bot-20" href="#">Поддержка</a>
+                <a href="#">Контакты</a>
             </div>
         </div>
     </footer>

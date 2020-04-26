@@ -1,12 +1,24 @@
-header{
+.header {
     position: absolute;
     top: 20px;
     left: 0;
     right: 0;
     z-index: 10;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+
 }
 .logo-header {
-    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    margin:0 10% 20px 0;
+
     img {
         height: 20px;
         width: 20px;
@@ -17,6 +29,8 @@ header{
     }
 }
 .header-nav{
+    display: flex;
+    margin-bottom: 20px;
     a{
         color: $secondary-color-font;
         margin-right: 30px;
@@ -26,7 +40,7 @@ header{
     }
 }
 .header-search {
-    margin-left: auto;
+    margin:0 0 20px auto ;
     border: none;
     border-radius: 50px;
     background: $input-color-bg;
