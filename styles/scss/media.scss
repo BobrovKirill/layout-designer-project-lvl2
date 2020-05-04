@@ -94,6 +94,10 @@
     h2 {
         font-size: 20px;
     }
+    @each $autor in $autors {
+        @include new-autor($autor, 130px, 130px, 20px, 16px, 12px);
+    }
+    
 
     .sm-header-vers {
         flex-wrap: nowrap;
@@ -206,7 +210,7 @@
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
-
+    
 }
 @media (max-width: 375px){
     

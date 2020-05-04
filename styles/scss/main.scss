@@ -7,15 +7,15 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.subscribe-1 {
-    background: url(../images/subscribe_1.png) no-repeat center;
+@mixin subscribe-bg ($num) {
+    .subscribe-#{$num}{
+        background: url(../images/subscribe-#{$num}.png) no-repeat center;
+    } 
 }
-.subscribe-2 {
-    background: url(../images/subscribe_2.png) no-repeat center;
+@for $i from 1 to 4 {
+    @include subscribe-bg ($i);
 }
-.subscribe-3 {
-    background: url(../images/subscribe_3.png) no-repeat center;
-}
+
 
 .subscribe {
     width: 350px;
@@ -166,6 +166,31 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+$autors : "A-ha", "Tears_for_Fears", "Duran_Duran", "Jack_Savoretti", "Keane", "Frank_Sinatra", "Paul_Young", "Chris_Rea";
+@mixin new-autor ($autor, $w-autor:250px, $h-autor: 250px,$m-r: 50px, $fz-h6: 20px, $fz-p: 16px) {
+.#{$autor} {
+    background: url("../images/#{$autor}.png");
+    background-size: cover;
+    width: $w-autor;
+    height: $h-autor;
+    margin: 50px $m-r 50px 0;
+    text-align: center;
+    h6 {
+        font-size: $fz-h6;
+        color: $main-color-font;
+        margin: ($h-autor + 15px) 0 10px;
+    }
+    p {
+        font-size: $fz-p;
+    }
+}
+}
+@each $autor in $autors {
+    @include new-autor ($autor);
+}
+
+
 
 .author {
     width: 250px;
